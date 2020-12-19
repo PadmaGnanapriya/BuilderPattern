@@ -12,5 +12,12 @@ public class Main {
         auditLog.setActionType("download");
         auditLog.setResource("image.jpg");
 
+        System.out.println(auditLog.getUserId());
+        System.out.println(auditLog.getTimeStamp());
+        System.out.println(auditLog.getActionType());
+        System.out.println(auditLog.getResource());
+
+        // GETTER SETTER (PATTERN)
+
     }
 }

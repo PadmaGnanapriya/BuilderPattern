@@ -1,6 +1,5 @@
 package lk.ac.uok.setu;
 
-import javax.swing.text.Style;
 import java.util.Date;
 
 /**
@@ -13,6 +12,23 @@ public class AuditLog {
     private Date timeStamp;
     private String actionType;
     private String resource;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public Date getTimeStamp() {
+        return timeStamp;
+    }
+
+    public String getActionType() {
+        return actionType;
+    }
+
+    public String getResource() {
+        return resource;
+    }
+
 
     public void setUserId(String id){
         this.userId= id;
